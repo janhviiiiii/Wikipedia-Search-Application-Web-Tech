@@ -12,4 +12,40 @@
     box-shadow: 2px 3px 10px black, -2px -3px 10px grey;
     margin: auto;
     margin-top: 4rem;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: center;
+}
+
+#header_section img{
+    width: 10rem;
+}
+
+#header_section input{
+    width: 15rem;
+    height: 2.3rem;
+    border-radius: 0.9rem;
+    border: 0.1px solid grey;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+input::placeholder{
+    color:  grey;
+    font-size: medium;
+    font-style: italic;
+    font-family: sans-serif;
+    letter-spacing: 1px;
+}
+
+#header_section input:hover{
+    box-shadow: 2px 3px 5px grey;
+}
+
+#main_section{
+    width: 80%;
+    height: fit-content;
+    margin: auto;
+    border: 2px solid black;
 }
