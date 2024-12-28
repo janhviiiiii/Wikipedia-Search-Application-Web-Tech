@@ -2,6 +2,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: cursive;
 }
 
 #header_section{
@@ -47,5 +48,44 @@ input::placeholder{
     width: 80%;
     height: fit-content;
     margin: auto;
-    border: 2px solid black;
+    /* border: 2px solid black; */
+    margin-top: 2rem;
+    margin-bottom: 4rem;
+}
+
+.search_section{
+    width: 95%;
+    margin: auto;
+    height: 10rem;
+    border: 5px solid rgb(218, 216, 216);
+    border-radius: 0.5rem;
+    background-color: rgb(202, 223, 223);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    /* align-items: center; */
+    padding: 1rem;
+    margin-top: 0.7rem;
+    margin-bottom: 0.7rem;
+}
+
+#link{
+    color: grey;
+}
+
+.search_section a{  
+    text-decoration: none;
+}
+
+#title{
+    font-weight: 55yObject object dot WT0;
+    font-size: 1.4rem;
+}
+
+#title:hover{
+    text-decoration: underline;
+}
+
+#description{
+    font-size: 0.9rem
 }
